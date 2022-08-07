@@ -8,7 +8,7 @@ local Tab1 = Window:NewTab("Scripts")
 
 local Tab2 = Window:NewTab("Credits")
 
-local Tab3 = Window:NewTab("pet simulatour x")
+local Tab3 = Window:NewTab("Soon!")
 
 -- sections
 
@@ -578,7 +578,7 @@ end)
 
 end)
 
-Section3:NewButton("ThunderZ", "Executes ThunderZ", function()
+Section1:NewButton("ThunderZ", "Executes ThunderZ", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
 
 end)
