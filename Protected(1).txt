@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("Dion Hub", "DarkTheme")
+local Window = Library.CreateLib("Dion Hub V4", "DarkTheme")
 
 -- tabs
 
@@ -583,7 +583,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/
 
 end)
 
-Section2:NewButton("Soon!", "Gonna be update logs", function()
+Section2:NewButton("Update Logs", "Sends update logs", function()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+
+    Title = "Update Logs";
+
+    Text = "Added Update Logs Notify! Bugs Fix";}
+
+Duration = 16;
 
     print("Clicked")
 
