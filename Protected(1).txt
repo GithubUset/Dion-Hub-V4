@@ -592,6 +592,8 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 
 Duration = 16;
 
+end)
+
     print("Clicked")
 
 end)
