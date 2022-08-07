@@ -576,6 +576,11 @@ end)
 
 end)
 
+Section1:NewButton("ThunderZ", "Executes ThunderZ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+
+end)
+
 Section2:NewButton("Soon!", "Gonna be update logs", function()
 
     print("Clicked")
