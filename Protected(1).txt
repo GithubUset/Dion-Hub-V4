@@ -8,7 +8,7 @@ local Tab1 = Window:NewTab("Scripts")
 
 local Tab2 = Window:NewTab("Credits")
 
-local Tab1 = Window:NewTab("pet simulatour x")
+local Tab3 = Window:NewTab("pet simulatour x")
 
 -- sections
 
